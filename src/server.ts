@@ -1,5 +1,4 @@
 import { ApolloServer, gql, PubSub } from 'apollo-server'
-import 'reflect-metadata'
 import { Connection, createConnection, EntityManager } from 'typeorm'
 
 import { Book } from './entity/Book'
